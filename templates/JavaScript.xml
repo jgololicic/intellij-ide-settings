@@ -1,0 +1,23 @@
+<templateSet group="JavaScript">
+  <template name="cl" value="console.log('%c $FIRST$', 'background-color: $END$');" description="console.log" toReformat="false" toShortenFQNames="true">
+    <variable name="FIRST" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="im" value="import { $END$ } from '$BUNDLE$';" description="import {} from '';" toReformat="false" toShortenFQNames="true">
+    <variable name="BUNDLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="clo" value="console.log($END$);" description="Normal, unstyled, console.log" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

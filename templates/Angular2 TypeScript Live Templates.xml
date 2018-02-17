@@ -1,0 +1,64 @@
+<templateSet group="Angular2 TypeScript Live Templates">
+  <template name="a-component-root2" value="import { Component } from '@angular/core';&#10;&#10;@Component({&#10; moduleId: module.id,&#10; selector: '$my-app$',&#10; template: `&#10;  &lt;router-outlet&gt;&lt;/router-outlet&gt;&#10;  `&#10;})&#10;export class $App$Component { }&#10;$END$" description="Angular 2 App root component snippet" toReformat="true" toShortenFQNames="true">
+    <variable name="App" expression="" defaultValue="&quot;App&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="imp" value="import {$END$} from '.$FIRST$';" description="Import Angular2 module" toReformat="false" toShortenFQNames="true">
+    <variable name="FIRST" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="//optimise" value="/* &#10; * OPTIMISE:&#10; * $TEXT$  &#10; * $USER$ on [$DATE$]&#10; */" description="Template for Optimise TODO" toReformat="false" toShortenFQNames="true">
+    <variable name="TEXT" expression="capitalize(String)" defaultValue="" alwaysStopAt="false" />
+    <variable name="DATE" expression="date(&quot;dd/MM/yyyy H:m:s&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="a-it" value="it(`$FIRST$`, $SECOND$() =&gt; {&#10;    $END$&#10;});" description="Angular testing IT code block" toReformat="false" toShortenFQNames="true">
+    <variable name="FIRST" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SECOND" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="a-pipe-test" value="describe('$DESC$', $SEC$() =&gt; {&#10;&#10;    $VARS$&#10;&#10;    beforeEach(() =&gt; {$THIRD$});&#10;    &#10;    $END$&#10;});" description="Pipe Spec" toReformat="false" toShortenFQNames="true">
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SEC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VARS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="THIRD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="a-component-test" value="import { By } from '@angular/platform-browser';&#10;import { CommonModule } from '@angular/common';&#10;import { FormsModule } from '@angular/forms';&#10;import { ComponentFixture, TestBed } from '@angular/core/testing';&#10;import { DebugElement } from '@angular/core';&#10;&#10;describe('$NAME$.component', () =&gt; {&#10;&#10;    let comp: UsersComponent;&#10;    let fixture: ComponentFixture&lt;UsersComponent&gt;;&#10;    let de: DebugElement;&#10;    let el: HTMLElement;&#10;&#10;    beforeEach(() =&gt; {&#10;        $SRVCE$ServiceStub = {&#10;        };&#10;&#10;        TestBed.configureTestingModule({&#10;            declarations: [ $NAME$Component ],&#10;            providers:    [&#10;                CommonModule,&#10;                FormsModule,&#10;                {provide: $DEP$Service, useValue: $SRVCE$ServiceStub }&#10;                ]&#10;        });&#10;&#10;        fixture = TestBed.createComponent($NAME$Component);&#10;        comp    = fixture.componentInstance;&#10;&#10;        $DEP_LC$Service = TestBed.get($DEP$Service);&#10;&#10;        de = fixture.debugElement.query(By.css('$SEL$'));&#10;        el = de.nativeElement;&#10;    });&#10;&#10;    it('Should exist', () =&gt; {&#10;        expect(de).toBeDefined();&#10;    });&#10;});" description="Test Angular simple component" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SRVCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEP_LC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="a-component-test-inside-host-component" value="import {By} from &quot;@angular/platform-browser&quot;;&#10;import {async, ComponentFixture, TestBed} from &quot;@angular/core/testing&quot;;&#10;import {Component, DebugElement} from &quot;@angular/core&quot;;&#10;&#10;@Component({&#10;    template: `$TPL$`&#10;})&#10;class TestHostComponent {&#10;}&#10;&#10;describe('$NAME$.component', () =&gt; {&#10;&#10;    let testHost: TestHostComponent;&#10;    let fixture: ComponentFixture&lt;TestHostComponent&gt;;&#10;    let de: DebugElement;&#10;    let el: HTMLElement;&#10;&#10;    beforeEach( async(() =&gt; {&#10;        TestBed.configureTestingModule({&#10;            declarations: [ $NAME$Component, TestHostComponent ],&#10;        }).compileComponents();&#10;    }));&#10;&#10;    beforeEach(() =&gt; {&#10;        fixture = TestBed.createComponent(TestHostComponent);&#10;        testHost = fixture.componentInstance;&#10;        de = fixture.debugElement;&#10;        el = de.query(By.css('.$SELECTOR$')).nativeElement;&#10;        fixture.detectChanges();&#10;    });&#10;});&#10;" description="Test Component inside test component" toReformat="false" toShortenFQNames="true">
+    <variable name="TPL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SELECTOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="a-service-test" value="describe('$NAME$.service', () =&gt; {&#10;    &#10;    let service: $NAME$Service;&#10;    &#10;    beforeEach(() =&gt; {&#10;        service = new $NAME$Service();&#10;    });&#10;    &#10;});" description="Unit test for Service" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

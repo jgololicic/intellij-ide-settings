@@ -1,0 +1,17 @@
+<templateSet group="PHP">
+  <template name="thr" value="throw new Exception($END$)" description="throw new" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="tryc" value="try&#10;{&#10;    $CODE$&#10;}&#10;catch(Exception $e)&#10;{&#10;}" description="Try catch block" toReformat="false" toShortenFQNames="true">
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pad" value="print_r($END$);die;" description="print_r and die" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+</templateSet>
