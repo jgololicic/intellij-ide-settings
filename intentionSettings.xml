@@ -1,0 +1,10 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="PHP/Add PHPDoc comment" />
+    <ignoreAction name="PHP/Surround with '!empty'" />
+    <ignoreAction name="PHP/Add fluent setter" />
+    <ignoreAction name="JavaScript/Other/Replace Double-Quoted String with Single-Quoted String" />
+    <ignoreAction name="JavaScript/Replace string with template string" />
+    <ignoreAction name="TypeScript/Generate reference path comment" />
+  </component>
+</application>
