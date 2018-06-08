@@ -6,4 +6,11 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="jtest" value="test('$DESCRIPTION$', ($PARAMS$) =&gt; {&#10;    $END$&#10;});" description="jest test" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
