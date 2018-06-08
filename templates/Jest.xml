@@ -1,0 +1,9 @@
+<templateSet group="Jest">
+  <template name="jdesc" value="describe('$START$', ($PARAMS$) =&gt; {&#10;    $END$&#10;});" description="jest describe" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
