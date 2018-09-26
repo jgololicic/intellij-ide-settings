@@ -32,6 +32,7 @@
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="shift f10" />
   </action>
+  <action id="ShowProjectStructureSettings" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
