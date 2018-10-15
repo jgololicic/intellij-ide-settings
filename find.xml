@@ -14,8 +14,8 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.json</mask>
-    <mask>*.html</mask>
     <mask>*.scss</mask>
     <mask>*.ts</mask>
+    <mask>*.html</mask>
   </component>
 </application>
