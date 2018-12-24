@@ -2,8 +2,10 @@
   <component name="FindSettings">
     <option name="customScope" value="Project and Libraries" />
     <option name="defaultScopeName" value="Project and Libraries" />
+    <option name="localRegularExpressions" value="true" />
     <option name="searchOverloadedMethods" value="true" />
     <option name="SEARCH_OVERLOADED_METHODS" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project and Libraries" />
     <option name="FILE_MASK" value="*.ts" />
     <mask>*.properties</mask>
@@ -15,8 +17,8 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.json</mask>
+    <mask>*.scss</mask>
     <mask>*.html</mask>
     <mask>*.ts</mask>
-    <mask>*.scss</mask>
   </component>
 </application>
