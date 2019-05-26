@@ -20,4 +20,13 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="met" value="$ACCESS$ $NAME$(): $RET$ {&#10;    $END$&#10;}" description="public method" toReformat="false" toShortenFQNames="true">
+    <variable name="ACCESS" expression="" defaultValue="&quot;public&quot;" alwaysStopAt="true" />
+    <variable name="NAME" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RET" expression="" defaultValue="&quot;void&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
