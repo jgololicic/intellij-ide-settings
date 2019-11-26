@@ -11,4 +11,9 @@
   <action id="AceWordAction">
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
   </action>
+  <action id="ChangesView.Move" />
+  <action id="EditorScrollToCenter">
+    <keyboard-shortcut first-keystroke="shift meta m" />
+  </action>
+  <action id="Vcs.MoveChangedLinesToChangelist" />
 </keymap>
