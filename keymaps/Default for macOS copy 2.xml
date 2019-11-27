@@ -14,4 +14,12 @@
   <action id="AceWordForwardAction">
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
   </action>
+  <action id="ChangesView.Move" />
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
+  <action id="EditorScrollToCenter">
+    <keyboard-shortcut first-keystroke="shift meta m" />
+  </action>
+  <action id="Vcs.MoveChangedLinesToChangelist" />
 </keymap>
