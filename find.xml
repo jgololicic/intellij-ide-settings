@@ -5,6 +5,7 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.ng</mask>
@@ -19,8 +20,8 @@
     <mask>*.</mask>
     <mask>*.html</mask>
     <mask>*.spec.ts</mask>
-    <mask>*.ts</mask>
     <mask>*.scss</mask>
     <mask>*.java</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
