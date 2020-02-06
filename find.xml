@@ -5,7 +5,7 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
-    <option name="FILE_MASK" value="*.java" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.ng</mask>
@@ -14,7 +14,6 @@
     <mask>*.sht</mask>
     <mask>*.ats</mask>
     <mask>*.cjs</mask>
-    <mask>*.js</mask>
     <mask>*.shtm</mask>
     <mask>*.component.ts</mask>
     <mask>*.</mask>
@@ -23,5 +22,6 @@
     <mask>*.ts</mask>
     <mask>*.spec.ts</mask>
     <mask>*.java</mask>
+    <mask>*.js</mask>
   </component>
 </application>
