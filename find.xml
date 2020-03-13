@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
@@ -11,20 +13,12 @@
     <mask>*.sht</mask>
     <mask>*.ats</mask>
     <mask>*.cjs</mask>
-    <mask>*.shtm</mask>
-    <mask>*.component.ts</mask>
-    <mask>*.</mask>
     <mask>*.js</mask>
-    <mask>*.html</mask>
+    <mask>*.shtm</mask>
     <mask>*.scss</mask>
-    <mask>*.jsp</mask>
-    <mask>!*.ts.html</mask>
-    <mask>*.ts, *.html</mask>
-    <mask>*.ts, *.html, !*.spec.ts</mask>
-    <mask>*.java</mask>
-    <mask>!*.spec.ts</mask>
-    <mask>!*.spec.ts, *.ts</mask>
     <mask>*.spec.ts</mask>
+    <mask>*.component.ts</mask>
     <mask>*.ts</mask>
+    <mask>*.html</mask>
   </component>
 </application>
