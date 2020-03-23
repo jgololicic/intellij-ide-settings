@@ -24,9 +24,9 @@
     <mask>*.scss, *.html</mask>
     <mask>*.scss</mask>
     <mask>*.java</mask>
-    <mask>*.spec.ts</mask>
     <mask>!*.class</mask>
     <mask>*.ts</mask>
+    <mask>*.spec.ts</mask>
     <mask>*.html</mask>
   </component>
 </application>
