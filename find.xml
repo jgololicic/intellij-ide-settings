@@ -2,7 +2,11 @@
   <component name="FindSettings">
     <option name="customScope" value="Default Changelist" />
     <option name="defaultScopeName" value="Default Changelist" />
+    <option name="localCaseSensitive" value="true" />
     <option name="localWholeWordsOnly" value="true" />
+    <option name="wholeWordsOnly" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
     <option name="FILE_MASK" value="*.java" />
@@ -23,6 +27,7 @@
     <mask>*.spec.ts</mask>
     <mask>*.html</mask>
     <mask>*.ts</mask>
+    <mask>*.jsp</mask>
     <mask>*.java</mask>
   </component>
 </application>
