@@ -7,7 +7,7 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
-    <option name="FILE_MASK" value="*.html" />
+    <option name="FILE_MASK" value="!*.ts.html,*.html" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.ng</mask>
@@ -27,5 +27,6 @@
     <mask>*.ts</mask>
     <mask>*.java</mask>
     <mask>*.html</mask>
+    <mask>!*.ts.html,*.html</mask>
   </component>
 </application>
