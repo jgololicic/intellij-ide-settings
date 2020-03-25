@@ -4,12 +4,10 @@
     <option name="defaultScopeName" value="Default Changelist" />
     <option name="localCaseSensitive" value="true" />
     <option name="localWholeWordsOnly" value="true" />
-    <option name="wholeWordsOnly" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
-    <option name="FILE_MASK" value="*.java" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.ng</mask>
@@ -26,8 +24,8 @@
     <mask>!*.class</mask>
     <mask>*.spec.ts</mask>
     <mask>*.html</mask>
-    <mask>*.ts</mask>
     <mask>*.jsp</mask>
     <mask>*.java</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
