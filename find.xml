@@ -24,9 +24,9 @@
     <mask>*.jsp</mask>
     <mask>*.html</mask>
     <mask>!*.ts.html,*.html</mask>
-    <mask>*.java</mask>
     <mask>*.ts</mask>
     <mask>*.spec.ts</mask>
     <mask>!*.ts.html</mask>
+    <mask>*.java</mask>
   </component>
 </application>
