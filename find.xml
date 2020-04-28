@@ -2,10 +2,10 @@
   <component name="FindSettings">
     <option name="customScope" value="Default Changelist" />
     <option name="defaultScopeName" value="Default Changelist" />
-    <option name="wholeWordsOnly" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
-    <option name="FILE_MASK" value="*.spec.ts" />
+    <option name="FILE_MASK" value="*.java" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.ng</mask>
@@ -23,9 +23,9 @@
     <mask>*.html</mask>
     <mask>!*.ts.html,*.html</mask>
     <mask>!*.ts.html</mask>
-    <mask>*.java</mask>
     <mask>*.ts</mask>
     <mask>*.scss</mask>
     <mask>*.spec.ts</mask>
+    <mask>*.java</mask>
   </component>
 </application>
