@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="mbtiles" type="Dockerfile" />
       <mapping pattern="0309d140e979c4a62dfbdc8278a1373c" type="Native" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping ext="lcov" type="PLAIN_TEXT" />
