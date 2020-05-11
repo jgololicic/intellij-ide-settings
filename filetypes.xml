@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="mbtiles" type="Dockerfile" />
+      <mapping ext="emails" type="Dockerfile" />
       <mapping ext="mongodb" type="Dockerfile" />
       <mapping pattern="0309d140e979c4a62dfbdc8278a1373c" type="Native" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
