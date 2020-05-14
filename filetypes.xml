@@ -1,7 +1,10 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern=".dockerignore" type="Dockerfile" />
       <mapping ext="mbtiles" type="Dockerfile" />
+      <mapping ext="client" type="Dockerfile" />
+      <mapping ext="server" type="Dockerfile" />
       <mapping ext="emails" type="Dockerfile" />
       <mapping ext="mongodb" type="Dockerfile" />
       <mapping pattern="0309d140e979c4a62dfbdc8278a1373c" type="Native" />
