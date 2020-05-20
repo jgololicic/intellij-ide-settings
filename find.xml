@@ -1,8 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Default Changelist" />
-    <option name="defaultScopeName" value="Default Changelist" />
-    <option name="SEARCH_SCOPE" value="Default Changelist" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="localWholeWordsOnly" value="true" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.ng</mask>
@@ -13,12 +15,11 @@
     <mask>*.cjs</mask>
     <mask>*.js</mask>
     <mask>*.shtm</mask>
+    <mask>*.spec.ts</mask>
     <mask>*.component.ts</mask>
     <mask>*.scss, *.html</mask>
     <mask>*.scss</mask>
-    <mask>*.ts</mask>
     <mask>*.html</mask>
-    <mask>!*.spec.ts, !*.ts.html,!*.js</mask>
-    <mask>*.spec.ts</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
