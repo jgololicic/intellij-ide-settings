@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern=".dockerignore" type="Dockerfile" />
       <mapping ext="mbtiles" type="Dockerfile" />
+      <mapping ext="app" type="Dockerfile" />
       <mapping ext="client" type="Dockerfile" />
       <mapping ext="tileserver" type="Dockerfile" />
       <mapping ext="server" type="Dockerfile" />
