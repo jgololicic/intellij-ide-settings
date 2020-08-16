@@ -12,11 +12,12 @@
       <mapping ext="mongodb" type="Dockerfile" />
       <mapping pattern="0309d140e979c4a62dfbdc8278a1373c" type="Native" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="lcov" type="PLAIN_TEXT" />
       <mapping ext="class" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <mapping pattern="url" type="TypeScript" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
