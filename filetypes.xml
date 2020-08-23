@@ -11,7 +11,6 @@
       <mapping ext="emails" type="Dockerfile" />
       <mapping ext="mongodb" type="Dockerfile" />
       <mapping pattern="0309d140e979c4a62dfbdc8278a1373c" type="Native" />
-      <mapping pattern=".env.development" type="PLAIN_TEXT" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping ext="lcov" type="PLAIN_TEXT" />
       <mapping ext="class" type="PLAIN_TEXT" />
