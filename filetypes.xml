@@ -2,21 +2,21 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".dockerignore" type="Dockerfile" />
-      <mapping ext="mbtiles" type="Dockerfile" />
-      <mapping ext="app" type="Dockerfile" />
       <mapping ext="haproxy" type="Dockerfile" />
+      <mapping ext="emails" type="Dockerfile" />
+      <mapping ext="server" type="Dockerfile" />
       <mapping ext="tileserver" type="Dockerfile" />
       <mapping ext="client" type="Dockerfile" />
-      <mapping ext="server" type="Dockerfile" />
-      <mapping ext="emails" type="Dockerfile" />
+      <mapping ext="app" type="Dockerfile" />
+      <mapping ext="mbtiles" type="Dockerfile" />
       <mapping ext="mongodb" type="Dockerfile" />
       <mapping pattern="0309d140e979c4a62dfbdc8278a1373c" type="Native" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping ext="lcov" type="PLAIN_TEXT" />
       <mapping ext="class" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <mapping pattern="url" type="TypeScript" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />

@@ -26,5 +26,6 @@
     <mask>*.scss</mask>
     <mask>*.ts</mask>
     <mask>*.json</mask>
+    <mask>*.test.tsx</mask>
   </component>
 </application>
