@@ -4,9 +4,10 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="localRegularExpressions" value="true" />
-    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.html" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.ng</mask>
@@ -18,7 +19,6 @@
     <mask>*.shtm</mask>
     <mask>*.component.ts</mask>
     <mask>*.ts,!*.spec.ts</mask>
-    <mask>*.html</mask>
     <mask>*.js</mask>
     <mask>!*.java</mask>
     <mask>!*.spec.ts</mask>
@@ -29,5 +29,6 @@
     <mask>*.scss, *.html</mask>
     <mask>*.ts</mask>
     <mask>*.scss</mask>
+    <mask>*.html</mask>
   </component>
 </application>
