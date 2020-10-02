@@ -1,0 +1,8 @@
+<templateSet group="React">
+  <template name="com" value="import React from 'react'&#10;&#10;export const $Name$ = () =&gt; {&#10;    return ($END$);&#10;}" description="Functional component" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
