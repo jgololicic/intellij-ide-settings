@@ -2,6 +2,7 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
@@ -17,7 +18,6 @@
     <mask>*.shtm</mask>
     <mask>*.component.ts</mask>
     <mask>*.ts,!*.spec.ts</mask>
-    <mask>*.html</mask>
     <mask>*.js</mask>
     <mask>!*.java</mask>
     <mask>!*.spec.ts</mask>
@@ -26,6 +26,7 @@
     <mask>*.json</mask>
     <mask>*.test.tsx</mask>
     <mask>*.scss, *.html</mask>
+    <mask>*.html</mask>
     <mask>*.ts</mask>
     <mask>*.jsx</mask>
     <mask>*.scss</mask>
