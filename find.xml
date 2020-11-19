@@ -9,7 +9,7 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.ts" />
+    <option name="FILE_MASK" value="*.scss" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.ng</mask>
@@ -30,11 +30,11 @@
     <mask>*.test.tsx</mask>
     <mask>*.scss, *.html</mask>
     <mask>*.jsx</mask>
-    <mask>*.scss</mask>
     <mask>!*.html,!.*/node_modules/</mask>
     <mask>!*.html</mask>
     <mask>!*.html, !*.sh</mask>
     <mask>*.html</mask>
     <mask>*.ts</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
