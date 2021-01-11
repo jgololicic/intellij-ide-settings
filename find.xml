@@ -24,10 +24,10 @@
     <mask>*.test.tsx</mask>
     <mask>*.scss, *.html</mask>
     <mask>*.jsx</mask>
-    <mask>*.scss</mask>
     <mask>!*.html,!.*/node_modules/</mask>
     <mask>!*.html</mask>
     <mask>!*.html, !*.sh</mask>
+    <mask>*.scss</mask>
     <mask>*.html</mask>
     <mask>*.ts</mask>
   </component>
