@@ -7,7 +7,6 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.html,!*.ts.html" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.ng</mask>
@@ -24,7 +23,6 @@
     <mask>!*.spec.ts</mask>
     <mask>*.java</mask>
     <mask>*.spec.ts</mask>
-    <mask>*.json</mask>
     <mask>*.test.tsx</mask>
     <mask>*.scss, *.html</mask>
     <mask>*.jsx</mask>
@@ -35,5 +33,6 @@
     <mask>*.scss</mask>
     <mask>*.ts</mask>
     <mask>*.html,!*.ts.html</mask>
+    <mask>*.json</mask>
   </component>
 </application>
