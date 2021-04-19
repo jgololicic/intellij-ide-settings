@@ -5,6 +5,7 @@
       <mapping ext="haproxy" type="Dockerfile" />
       <mapping ext="emails" type="Dockerfile" />
       <mapping ext="server" type="Dockerfile" />
+      <mapping ext="development" type="Dockerfile" />
       <mapping ext="tileserver" type="Dockerfile" />
       <mapping ext="client" type="Dockerfile" />
       <mapping ext="app" type="Dockerfile" />
