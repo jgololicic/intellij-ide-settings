@@ -7,7 +7,7 @@
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
-    <option name="FILE_MASK" value="*.html,!*.ts.html" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>*.css</mask>
     <mask>*.ng</mask>
     <mask>*.htm</mask>
@@ -35,8 +35,8 @@
     <mask>!*.ts.html</mask>
     <mask>*.xml</mask>
     <mask>*.scss</mask>
-    <mask>*.ts</mask>
     <mask>*.html</mask>
     <mask>*.html,!*.ts.html</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
