@@ -31,7 +31,7 @@
     <mask>*.xml</mask>
     <mask>*.scss</mask>
     <mask>*.html</mask>
-    <mask>*.html,!*.ts.html</mask>
     <mask>*.ts</mask>
+    <mask>*.html,!*.ts.html</mask>
   </component>
 </application>
